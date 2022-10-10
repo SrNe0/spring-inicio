@@ -11,7 +11,10 @@
 </header>
 
 <footer th:fragment="footer">
-    <p> [[#{plantilla.pie-pagina}]] <a href="https://uis.edu.co/es/" target="_blank">UIS</a></p>
+    <br/>
+    <a th:href="@{/(lang=es)}">ES</a> |
+    <a th:href="@{/(lang=en)}">EN</a> |
+    <span> [[#{plantilla.pie-pagina}]] <a href="https://uis.edu.co/es/" target="_blank">UIS</a></span>
 </footer>
 
 </body>
